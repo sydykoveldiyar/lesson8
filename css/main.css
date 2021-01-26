@@ -397,3 +397,6 @@ a{
     padding-top: 34px;
     width: 15%;
 }
+.nav-wrapper{
+    display: none;
+}

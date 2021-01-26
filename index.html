@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/burger_menu.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
     <title>Konstruct</title>
+    
 </head>
 
 <body>
@@ -26,7 +28,7 @@
         <span class="scroll_down">scroll down</span>
     </section>
     <header class="header">
-        <div class="container flex-wrapper">
+        <div class="container flex-wrapper menu">
             <a href="" class="header_logo">
                 <img src="./images/projeco-logo-black.png" alt="">
             </a>
@@ -36,6 +38,19 @@
                 <a href="" class="navbar_item">Services</a>
                 <a href="" class="navbar_item">Contact</a>
             </nav>
+            <div class="nav-wrapper">
+                <nav class="burger_menu">
+                    <div class="navigation">
+                        <ul class="nav-items">
+                            <li><a href="" class="navbar_item" target="_blank">Home</a></li>
+                            <li><a href="" class="navbar_item" target="_blank">About</a></li>
+                            <li><a href="" class="navbar_item" target="_blank">Services</a></li>
+                            <li><a href="" class="navbar_item" target="_blank">Contact</a></li>
+                        </ul>
+                        <div class="nav-toogler"></div>
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
     <section class="story">
@@ -43,7 +58,8 @@
             <h2 class="story_title">Our story</h2>
             <div class="row story_content">
                 <div class="col-6 content_info">
-                    <h3 class="">Founded in 2011 by John Mathew Smith, <span>Konstruct</span> has become the number one
+                    <h3 class="story_head">Founded in 2011 by John Mathew Smith, <span>Konstruct</span> has become the
+                        number one
                         construction management firm</h3>
                     <div class="story_description">
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
@@ -77,8 +93,8 @@
     </section>
     <section class="capabilities">
         <div class="container">
-            <div class="cap_content flex-wrapper ">
-               <h2 class="cap_head">OUR CAPABILITIES</h2>
+            <div class="cap_content flex-wrapper">
+                <h2 class="cap_head">OUR CAPABILITIES</h2>
                 <div class="cap_content_info">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                         nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
@@ -153,7 +169,6 @@
         <input type=submit value="GET IN TOUCH" class="button">
     </section>
 
-</body>
 <section class="newsletter">
     <div class="container">
         <div class="row newsletter_content">
@@ -162,7 +177,7 @@
             </h2>
             <form class="row buttons_wrapper">
                 <input type="text" class="email" placeholder="test@youremail.com"">
-                <input type=" submit" value="SIGNUP" class="button">
+                <input type=" submit" value="SIGNUP" class="button signup">
             </form>
         </div>
     </div>
@@ -176,7 +191,8 @@
                     <img src="./images/projeco-logo.png" alt="">
                 </div>
                 <p class="company_text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat.
                 </p>
             </div>
             <div class="footer_help">
@@ -206,13 +222,10 @@
                 <div class="footer_contact_us">
                     <h3 class="footer_title">contact us</h3>
                     <div class="footer_contacts">
-                        <p>213 Baker Street <br> Oriel City Kounty <br> 7000 KNW, <br> Kountry Name</p>
-                        <br>
-                        <p>+23 994 233 4022</p>
-                        <br>
+                        <p>213 Baker Street Oriel City Kounty 7000 KNW, Kountry Name</p>
+                        <p>+239942334022</p>
                         <p>info@konstruct.com</p>
                     </div>
-                </div>
                 <div class="footer_social">
                     <div class="footer_icons">
                         <a href="https://facebook.com">
@@ -233,5 +246,7 @@
 <section class="copyright">
     <p>© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
 </section>
+<script src="./scripts/main.js"></script>
+</body>
 
 </html>
