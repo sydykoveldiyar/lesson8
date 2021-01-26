@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #48555B;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-4{
+    width: 33.33333%;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: url('../images/bg1.png') fixed no-repeat center/cover;
+    height: 100vh;
+}
+
+.hero_logo{
+    padding-top: 41px;
+}
+
+.hero_title{
+    font-family: 'BebasNeueBold', sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+}
+
+.hero_desc{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.scroll_down{
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 3.7px;
+    padding-bottom: 71px;
+}
+
+.container{
+    max-width: 941px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    padding: 21px 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.navbar{
+    text-transform: uppercase;
+}
+
+.navbar_item{
+    color: #48555B;
+    margin-left: 48px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.navbar_item:hover{
+    color:  #00A4E5;
+}
+
+.flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-bt-lf{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.story{
+    margin: 57px 0px 117px;
+}
+
+.story_title{
+    color: #48555B;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+}
+
+.story_title::after{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -10px;
+    background-color: #00a4e5;
+}
+
+.story_content{
+    margin-top: 60px;
+}
+
+.content_info{
+    padding-right: 90px;
+}
+
+.content_info_head{
+    font-size: 20px;
+}
+
+.story_content span{
+    color: #16ace8;
+}
+
+.story_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+.story_content_img{
+    margin-left: 15px;
+    width: 140px;
+    height: 224px;
+}
+
+.img-title{
+    padding: 15px 14px;
+}
+
+.img_title_text{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: #FFFFFF;
+}
+
+.img_plan{
+    background: url('../images/story1.png');
+}
+
+.img_manage{
+    background: url('../images/story2.png');
+}
+
+.img_build{
+    background: url('../images/story3.png');
+}
+
+.cap_content_info{
+    display: flex;
+    align-items: center;
+}
+
+.cap_head{
+    position: relative;
+    min-width: 200px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+}
+
+.cap_head:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    display: inline-block;
+    background-color: #00a4e5;
+    bottom: -10px;
+    left: 0;
+}
+
+.cap_content_info p{
+    font-size: 11px;
+    padding-left: 155px;
+    margin-right: 32px;
+}
+
+.button{
+    min-width: 150px;
+    min-height: 40px;
+    background-color: #00A4E5;
+    border-style: solid;
+    border: 0;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    transition: .3s;
+    text-align: center;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #1abcfc;
+}
+
+.cap_cards{
+    margin: 78px 0 0 -25px;
+    margin-bottom: 115px;
+}
+
+.cap_card{
+    border: 1px solid #e6e6e6;
+    margin-left: 25px;
+}
+
+.card_body_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    margin: 25px 0;
+}
+
+.card_body_text{
+    margin-bottom: 39px;
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+}
+
+.card_content{
+    padding: 38px 10px 0 23px;
+}
+
+.get_in_touch{
+    background: url('../images/bg2.png') no-repeat center/cover;
+    height: 500px;
+    text-align: center;
+}
+
+.get_in_touch_title{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    margin-bottom: 35px;
+}
+
+.newsletter{
+    background-color: #171819;
+    padding: 30px 0;
+}
+
+.newsletter_caption{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.846154px;
+}
+
+.newsletter_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.email{
+    font-size: 14px;
+    width: 250px;
+    height: 40px;
+    padding-left: 16px;
+}
+
+.email:focus{
+    outline: none;
+}
+
+.footer{
+    background-color: #141A20;
+    color: #FFFFFF;
+}
+
+.footer_content{
+    display: flex;
+    padding: 42px 0;
+}
+
+.footer_title{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer_company{
+    width: 34%;
+    padding-right: 71px;
+}
+
+.company_text{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+}
+
+.footer_links{
+    display: flex;
+}
+
+.footer_links_item{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+}
+
+.central_link{
+    padding: 0 34px;
+}
+
+.footer_contact_us{
+    padding: 0 46px 0 58px;
+}
+
+.footer_contacts{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+}
+
+.footer_icons{
+    display: flex;
+    margin: 0 -25px;
+}
+
+.footer_icons a:not(:last-child){
+    margin-right: 25px;
+}
+
+.copyright{
+    text-align: center;
+    background-color: #171819;
+    padding: 22px 0;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: white;
+}
+
+.contact_us_socials{
+    display: flex;
+}
+.footer_social{
+    padding-top: 34px;
+    width: 15%;
+}

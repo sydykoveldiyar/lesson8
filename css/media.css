@@ -1,0 +1,256 @@
+@media (max-width: 992px){
+    .hero_title{
+        font-size: 40px;
+    }
+    .col-4{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .story_content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_info{
+        padding: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .flex-bt-lf{
+        justify-content: center;
+        align-items: center;
+    }
+    .cap_head{
+        margin-bottom: 20px;
+    }
+    .cap_head:before{
+        width: 100px;
+        height: 2px;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .cap_content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cap_content_info{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cap_content_info p{
+        text-align: center;
+        margin-bottom: 20px;
+        padding-right: 120px;
+    }
+    .footer_content{
+        flex-wrap: wrap;
+    }
+    .footer_title{
+        font-size: 25px;
+    }
+    .footer_company{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .company_logo{
+        margin: 8px 0;
+    }
+    .footer_links a{
+        padding: 0 5px;
+    }
+    .footer_links_item{
+        width: 100%;
+    }
+    .company_text{
+        font-size: 14px;
+        padding: 0 50px;
+    }
+    .footer_help{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer_links{
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .contact_us_socials{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .footer_social{
+        width: 100%;
+    }
+    .footer_contact_us{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer_contacts{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_social{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_social a{
+        box-shadow: 0 0 3px white;
+        padding: 20px 30px;
+        font-size: 30px;
+        border-radius: 50%;
+        transition: .6s;
+        background-color: rgb(54, 54, 54);
+    }
+    .footer_social a:hover{
+        cursor: pointer;
+        box-shadow: 0 0 0 10px white;
+    }
+}
+
+@media (max-width: 768px){
+    .hero_title{
+        font-size: 30px;
+    }
+
+    .newsletter_content{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .newsletter_caption{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    .buttons_wrapper{
+        justify-content: center;
+        align-items: center;
+    }
+    .story{
+        margin: 30px 0;
+    }
+    .cap_content p{
+        margin: 0 0 15px 0;
+        padding: 0 40px;
+    }
+    .cap_cards{
+        margin: 40px 0;
+    }
+    .cap_card{
+        margin: 0;
+    }
+    .card_content{
+        padding: 0;
+    }
+    .get_in_touch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 540px){
+    .hero_title{
+        font-size: 15px;
+    }
+    .hero_desc{
+        font-size: 10px;
+    }
+    .cap_cards{
+        margin: 20px 0;
+    }
+    .story{
+        margin-bottom: 20px;
+    }
+    
+    .story_content_img{
+        margin: 0 0 15px 0;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .flex-bt-lf{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_links{
+        flex-direction: column;
+    }
+
+    .footer_links_item{
+        margin-bottom: 15px;
+    }
+
+    .footer_contacts{
+        flex-direction: column;
+    }
+
+    .footer_social a{
+        box-shadow: 0 0 3px white;
+        padding: 20px 28px;
+        font-size: 30px;
+        border-radius: 50%;
+        transition: .6s;
+        background-color: rgb(54, 54, 54);
+    }
+    .footer_social a:hover{
+        cursor: pointer;
+        box-shadow: 0 0 0 10px white;
+    }
+    .cap_content p{
+        padding: 0;
+        margin-right: 0;
+    }
+    .story_content{
+        margin-top: 30px;
+    }
+    .story_description{
+        margin-top: 20px;
+    }
+    .footer_content{
+        padding: 0;
+    }
+    .card_content{
+        padding: 20px 10px;
+    }
+    .card_body_text{
+        margin: 0 10px;
+    }
+    .cap_card{
+        margin: 0;
+    }
+    .get_in_touch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .email{
+        width: 140px;
+    }
+    .header{
+        display: none;
+    }
+}
