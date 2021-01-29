@@ -69,6 +69,11 @@ a{
     padding-bottom: 71px;
 }
 
+.menu{
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
     max-width: 941px;
     margin: 0 auto;
