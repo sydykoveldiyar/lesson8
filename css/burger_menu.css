@@ -68,8 +68,8 @@
   .nav-wrapper:not(.active) .nav-toogler{
     margin-left: -10px;
   }
-  .nav-toogler::before,
-  .nav-toogler::after{
+  .nav-toggler::before,
+  .nav-toggler::after{
     content: '';
     position: relative;
     display: block;
@@ -78,17 +78,17 @@
     background-color: #3C9DFB;
     transition: .4s cubic-bezier(.77,0,.18,1);
   }
-  .nav-toogler::after {
+  .nav-toggler::after {
     margin-top: 10px;
   }
-  .nav-wrapper.active .nav-toogler::before,
-  .nav-wrapper.active .nav-toogler::after{
+  .nav-wrapper.active .nav-toggler::before,
+  .nav-wrapper.active .nav-toggler::after{
     position: absolute;
     top: 50%;
     background-color: #3C9DFB;
     transform: rotate(135deg);
   }
-  .nav-wrapper.active .nav-toogler::after {
+  .nav-wrapper.active .nav-toggler::after {
     transform: rotate(-135deg);
     margin-top: 0;
   }
