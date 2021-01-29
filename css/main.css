@@ -353,6 +353,11 @@ a{
     font-size: 11px;
     line-height: 25px;
     letter-spacing: 0.846154px;
+
+}
+
+.footer_links_item a{
+    color: #FFFFFF;
 }
 
 .central_link{

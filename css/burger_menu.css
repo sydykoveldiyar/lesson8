@@ -48,7 +48,7 @@
     margin-right: 20px;
   }
   
-  a{
+  .nav-items a{
     color: #888;
     text-decoration: none;
     transition: .3s;
